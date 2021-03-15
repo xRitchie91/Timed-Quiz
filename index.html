@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>⏰Timed Quiz⏰</title>
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <div id="highscore" class="nav-item nav-link"> View High Scores</div>
+          <h1 id="navbar-title">⏰Timed Quiz⏰</h1>
+            <table id=timers style="visibility: hidden;">
+              <tr>
+                <td>⏳Quiz Time Remaining:</td>
+                <td> <span id="gameTimer" class="nav-item"></span> </td>
+              </tr>
+               <tr>
+                <td>⏳Question Time Remaining:</td>
+                <td> <span id="quesTimer" class="nav-item"></span> </td>
+              </tr>
+            </table>
+        </div>
+      </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Content -->
+    <div class="container-fluid">
+      <section id="details"> </section>
+    </div>    
+  <!-- End Content -->
+
+  <!-- Footer -->
+    <nav class="navbar fixed-bottom footer">
+        <div class="footer-text">Timed Quiz by Ritchie🤙🏽</div>
+    </nav>
+  <!-- End Footer -->
+
+    <!-- Questions -->
+    <script src='./questions.js'></script>
+    <script src='./script.js'></script>
+  </body>
+</html>
